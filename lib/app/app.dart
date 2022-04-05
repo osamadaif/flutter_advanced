@@ -1,4 +1,4 @@
-import 'package:advanced_flutter/presentation/theme_manager.dart';
+import 'package:advanced_flutter/presentation/resources/theme_manager.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -9,6 +9,7 @@ class MyApp extends StatefulWidget {
   static final MyApp _instance = MyApp._internal(); // singleton or single instance
 
   factory MyApp() => _instance; // factory
+
 
   @override
   State<MyApp> createState() => _MyAppState();
